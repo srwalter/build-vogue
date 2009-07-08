@@ -3,10 +3,8 @@
 # you should derive from generic_with_google.mk
 
 subdirs += htc/libaudio
-subdirs += htc/libcameraservice
 subdirs += htc/libgps
 subdirs += htc/liblights
-subdirs += htc/libril
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic.mk)
 
